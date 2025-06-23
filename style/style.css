@@ -53,6 +53,10 @@ body {
   background: none;
   border: none;
 }
+.menu-links li:hover,
+.mobile-menu-links li:hover {
+  color: #093e86;
+}
 
 .menu-actions {
   display: flex;
@@ -69,6 +73,10 @@ body {
   padding: 0;
   cursor: pointer;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  transition: background 0.2s, transform 0.18s;
+}
+.menu-actions .action-btn:hover, .menu-actions .action-btn:focus {
+  transform: scale(1.06);
 }
 .menu-actions .action-btn .action-icon-circle {
   width: 36px;
@@ -107,6 +115,11 @@ body {
   min-width: 148px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+.menu-actions .contact-btn:hover {
+  box-shadow: 0 6px 24px rgba(9, 62, 134, 0.13);
+  transform: translateY(-3px) scale(1.035);
+  background: #f5f7fa;
 }
 .menu-actions .contact-btn .contact-btn-text {
   margin-right: 16px;
