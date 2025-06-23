@@ -128,9 +128,9 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     &:hover {
-    box-shadow: 0 6px 24px rgba(9, 62, 134, 0.13); // усиливаем тень
-    transform: translateY(-3px) scale(1.035);       // чуть "приподнимаем" и увеличиваем
-    background: #f5f7fa;                            // можно сделать фон чуть светлее
+    box-shadow: 0 6px 24px rgba(9, 62, 134, 0.13); 
+    transform: translateY(-3px) scale(1.035);      
+    background: #f5f7fa;                            
   }
     .contact-btn-text {
       margin-right: 16px;
