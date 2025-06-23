@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>ТЗ</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <div class="menu-wrapper">
+    <nav class="menu-surface">
+      <ul class="menu-links">
+        <li>Сертификаты</li>
+        <li>Опыт</li>
+        <li>Контакты</li>
+        <li>Тендеры</li>
+      </ul>
+      <div class="menu-actions">
+        <button class="action-btn">
+          <span>Монтаж</span>
+          <span class="action-icon-circle">
+            <img src="assets/wrench.svg" alt="Монтаж" />
+          </span>
+
+        </button>
+        <button class="action-btn">
+          <span>Магазин</span>
+          <span class="action-icon-circle">
+            <img src="assets/bag.svg" alt="Магазин" />
+          </span>
+
+        </button>
+        <button class="contact-btn" id="contactToggle">
+          <span class="contact-btn-text">Связаться</span>
+          <span class="contact-btn-arrow">
+            <img src="assets/arrow-down.svg" alt="Открыть" />
+          </span>
+        </button>
+        
+        <div class="contact-dropdown" id="contactDropdown">
+          <button><span>Позвонить</span><img src="assets/phone.svg" alt="" /></button>
+          <button><span>Whatsapp</span><img src="assets/whatsapp.svg" alt="" /></button>
+          <button><span>Telegram</span><img src="assets/telegram.svg" alt="" /></button>
+          <button><span>E-mail</span><img src="assets/email.svg" alt="" /></button>
+        </div>
+      </div>
+      <button class="burger-btn" id="burgerOpen"><span></span></button>
+      <button class="header-phone-btn">
+        <img src="assets/header-phone.svg" alt="Позвонить" />
+      </button>
+    </nav>
+   
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-header">
+        <button class="close-btn" id="burgerClose">&times;</button>
+        <button class="mobile-phone-btn">
+          <img src="assets/phone.svg" alt="" />
+        </button>
+      </div>
+      <ul class="mobile-menu-links">
+        <li>Сертификаты</li>
+        <li>Опыт</li>
+        <li>Контакты</li>
+        <li>Тендеры</li>
+        <li>Вакансии</li>
+      </ul>
+      <div class="mobile-menu-actions">
+        <button class="action-btn">
+          <span>Монтаж</span>
+          <span class="action-icon-circle">
+            <img src="assets/wrench.svg" alt="Монтаж" />
+          </span>
+
+        </button>
+        <button class="action-btn">
+          <span>Магазин</span>
+          <span class="action-icon-circle">
+            <img src="assets/bag.svg" alt="Магазин" />
+          </span>
+
+        </button>
+        <div>
+          <button class="contact-btn" id="contactToggleMobile">
+            <span class="contact-btn-text">Связаться</span>
+            <span class="contact-btn-arrow">
+              <img src="assets/arrow-down.svg" alt="Открыть" />
+            </span>
+          </button>
+          <div class="contact-dropdown-mobile" id="contactDropdownMobile">
+            <button class="contact-dropdown-btn">
+              <span class="contact-btn-text">Позвонить</span>
+              <span class="contact-icon-circle">
+                <img src="assets/phone.svg" alt="" />
+              </span>
+            </button>
+            <button class="contact-dropdown-btn">
+              <span class="contact-btn-text">Whatsapp</span>
+              <span class="contact-icon-circle">
+                <img src="assets/whatsapp.svg" alt="" />
+              </span>
+            </button>
+            <button class="contact-dropdown-btn">
+              <span class="contact-btn-text">Telegram</span>
+              <span class="contact-icon-circle">
+                <img src="assets/telegram.svg" alt="" />
+              </span>
+            </button>
+            <button class="contact-dropdown-btn">
+              <span class="contact-btn-text">E-mail</span>
+              <span class="contact-icon-circle">
+                <img src="assets/email.svg" alt="" />
+              </span>
+            </button>
+            <div style="height: 16px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-backdrop" id="menuBackdrop"></div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
