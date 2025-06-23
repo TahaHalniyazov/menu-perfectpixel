@@ -234,6 +234,8 @@ body {
   display: flex;
   flex-direction: column;
   padding-bottom: 24px;
+  overflow-y: auto; 
+  -webkit-overflow-scrolling: touch; 
 
   &.open {
     transform: translateX(0);
